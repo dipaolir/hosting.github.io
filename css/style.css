@@ -342,7 +342,7 @@ border-top-right-radius: 13px;
 
 
 }
-.cointainer{
+/* .cointainer{
     max-width: 1170px;
     margin: auto;
 }
@@ -395,8 +395,8 @@ border-top-right-radius: 13px;
     color: #ffffffff;
     padding-left: 8px;
 
-}
-.footer-col.social-links a{
+} */
+/* .footer-col.social-links a{
     display: inline-block;
     height: 40px;
     width: 40px;
@@ -410,7 +410,7 @@ border-top-right-radius: 13px;
 .fa-brands{
     color: #bbbbbb;
     font-size: 40px;
-}
+} */
 .ft{
     min-height: 50vh;
     width: 100%;
