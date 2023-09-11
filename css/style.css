@@ -71,7 +71,7 @@ text-align: right;
     margin: 10px 0 40px;
     font-size: 14px;
 }
-.text-box a{
+.hero-btn{
     display: inline-block;
     text-decoration: none;
     color: #fff;
@@ -83,7 +83,7 @@ text-align: right;
     cursor: pointer;
     transition: 0.5s ease-in-out;
 }
-.text-box a:hover{
+.hero-btn:hover{
     border: 1px solid #ff4800;
     background-color : #ff4800;
 }
@@ -478,4 +478,145 @@ border-top-right-radius: 13px;
     color: purple;
 }
 
+/* This is contact css */
+.header-contact{
+    min-height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../image/Untitled.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+    }
+    .venue{
+        width: 90%;
+        min-height: 50px;
+        align-items: center;
+        margin: auto;
+    }
+/*This about cs*/
+.header-about{
+    min-height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../image/h.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.why-college{
+    width: 90%;
+}
+.why-college-col{
+    flex-basis: 44%;
+    flex-direction: row;
 
+
+}
+.why-college-col img{
+    width: 100%;
+}
+.why-college-col h3{
+
+    color:#0a2241;
+    position: relative;
+    margin-bottom: 35px;
+    font-size: 18px;
+    font-size: 30px;
+
+}
+.why-college-col h3::before{
+    content: '';
+    left: 0;
+    bottom: -12px;
+    height: 2px;
+    width: 30%;
+    background:#ff4800;
+    position: absolute;
+}
+.redcolor {
+    background-color:#0a2241;
+    margin-top: 40px;
+}
+.header-team{
+    min-height: 10vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7));
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+    }@import url(https://fonts.googleapis.com/css?family=Roboto:300,400);
+    @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+    figure.snip1390 {
+      font-family: 'Roboto', Arial, sans-serif;
+      position: relative;
+      overflow: hidden;
+      margin: 10px;
+      min-width: 230px;
+      max-width: 315px;
+      width: 100%;
+      color: #000000;
+      text-align: center;
+      font-size: 16px;
+      background-color: #2C3447;
+      padding: 30px;
+      background-image: linear-gradient(-25deg, rgba(0, 0, 0, 0.2) 0%, rgba(255, 255, 255, 0.1) 100%);
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+    figure.snip1390 *,
+    figure.snip1390 *:before,
+    figure.snip1390 *:after {
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      -webkit-transition: all 0.35s ease;
+      transition: all 0.35s ease;
+    }
+    figure.snip1390 figcaption {
+      width: 100%;
+    }
+    figure.snip1390 h2,
+    figure.snip1390 h4,
+    figure.snip1390 blockquote {
+      margin: 0;
+    }
+    figure.snip1390 h2,
+    figure.snip1390 h4 {
+      font-weight: 300;
+    }
+    figure.snip1390 h2 {
+      color: #ffffff;
+    }
+    figure.snip1390 h4 {
+      color: #a6a6a6;
+    }
+    figure.snip1390 blockquote {
+      font-size: 1em;
+      padding: 45px 20px 40px 50px;
+      margin-top: 30px;
+      background-color: #ffffff;
+      border-radius: 5px;
+      box-shadow: inset -1.4px -1.4px 2px rgba(0, 0, 0, 0.3);
+      text-align: left;
+      position: relative;
+    }
+    figure.snip1390 blockquote:before {
+      font-family: 'FontAwesome';
+      content: "\201C";
+      position: absolute;
+      font-size: 70px;
+      opacity: 0.25;
+      font-style: normal;
+      top: 0px;
+      left: 20px;
+    }
+    figure.snip1390 .profile {
+      width: 100px;
+      border-radius: 50%;
+      display: inline-block;
+      box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.4);
+      margin-bottom: 10px;
+      border: solid 5px #A6A57A;
+    }
+
+    
