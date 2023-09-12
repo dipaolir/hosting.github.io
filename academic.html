@@ -16,9 +16,9 @@
                 <ul>
                     <li><a href="./about-us.html">ABOUT US</a></li>
                     <li><a href="./creere.html">CARRERS</a></li>
-                    <li><a href="">NEWS & EVENTS</a></li>
-                    <li><a href="">CADEMICS</a></li>
-                    <li><a href="">OUR TEAM</a></li>
+                    <li><a href="./news.html">NEWS & EVENTS</a></li>
+                    <li><a href="./about-us.html">CADEMICS</a></li>
+                    <li><a href="./our-team.html">OUR TEAM</a></li>
                     <li><a href="./contact.html">CONTACT</a></li>
                 </ul>
             </div>
@@ -161,37 +161,37 @@
       </div>
       <script>
         (function() {
-  $(".skills-prog li")
+  (".skills-prog li")
     .find(".skills-bar")
     .each(function(i) {
-      $(this)
+      (this)
         .find(".bar")
         .delay(i * 150)
         .animate(
           {
             width:
-              $(this)
+              (this)
                 .parents()
                 .attr("data-percent") + "%"
           },
           1000,
           "linear",
           function() {
-            return $(this).css({
+            return (this).css({
               "transition-duration": ".5s"
             });
           }
         );
     });
 
-  $(".skills-soft li")
+  (".skills-soft li")
     .find("svg")
     .each(function(i) {
       var c, cbar, circle, percent, r;
-      circle = $(this).children(".cbar");
+      circle = (this).children(".cbar");
       r = circle.attr("r");
       c = Math.PI * (r * 2);
-      percent = $(this)
+      percent = (this)
         .parent()
         .data("percent");
       cbar = (100 - percent) / 100 * c;
@@ -211,7 +211,7 @@
           });
         }
       );
-      $(this)
+      (this)
         .siblings("small")
         .prop("Counter", 0)
         .delay(i * 150)
@@ -222,7 +222,7 @@
           {
             duration: 1000,
             step: function(now) {
-              return $(this).text(Math.ceil(now) + "%");
+              return (this).text(Math.ceil(now) + "%");
             }
           }
         );
