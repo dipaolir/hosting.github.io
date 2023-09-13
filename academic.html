@@ -4,230 +4,645 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./font/css/all.min.css">
+    <link rel="stylesheet" href="/css/team.css">
     <link rel="stylesheet" href="./css/academic.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     
+
 </head>
 <body>
-    <section class="header">
+    <section class="header1">
         <nav>
-            <a href="index.html"><img src="../image/logo.png" width="230"></a>
+            <a href="index.html"><img src="./image/logo.png" alt="" width="250"></a>
             <div class="nav-links" id="navlinks">
                 <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
                 <ul>
-                    <li><a href="./about-us.html">ABOUT US</a></li>
-                    <li><a href="./creere.html">CARRERS</a></li>
-                    <li><a href="./news.html">NEWS & EVENTS</a></li>
-                    <li><a href="./about-us.html">CADEMICS</a></li>
-                    <li><a href="./our-team.html">OUR TEAM</a></li>
-                    <li><a href="./contact.html">CONTACT</a></li>
+                    <li><a href="/About-us.html">ABOUT US</a></li>
+                    <li><a href="/carrier.html">CARRERS</a></li>
+                    <li><a href="/news.html">NEWS & EVENTS</a></li>
+                    <li><a href="./academic.html">ACADEMICS</a></li>
+                    <li><a href="/our-team.html">OUR TEAM</a></li>
+                    <li><a href="/contact.html">CONTACT</a></li>
+
                 </ul>
             </div>
-            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
-
+            <i class="fa-solid fa-bars " onclick="showMenu()"></i>
         </nav>
+        
     </section>
-    <div class="resume">
-        <div class="base">
-          <div class="profile">
-            <div class="photo">
-              <!--<img src="" /> -->
-              <i class="fas fa-rocket"></i>
-            </div>
-            <div class="info">
-              <h1 class="name">Naomi Weatherford</h1>
-              <h2 class="job">Frontend Web Designer</h2>
-            </div>
+
+    <article class="col-md-12">
+   
+      
+      <div class="cards-1 section-gray">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-4">
+                      <div class="card card-blog">
+                          <div class="card-image">
+                              <a href="#"> <img class="img" src="./image/h.jpg">
+                                  <div class="card-caption"> Quisque a bibendum magna </div>
+                              </a>
+                              <div class="ripple-cont"></div>
+                          </div>
+                          <div class="table">
+                              <h6 class="category text-info">Cinema</h6>
+                              <p class="card-description"> Lorem ipsum dolor sit amet, consectetur adipis cingelit. Etiam lacinia elit et placerat finibus. Praesent justo metus, pharetra vel nibh sit amet, tincidunt posuere nulla. Vivamus odio antement, feugiat eget nisi sit amet, scelerisque dignissim velit antement. </p>
+                          </div>
+                      </div>
+                      <div class="card">
+                          <div class="table table-info">
+                              <h5 class="category-social">
+                      <i class="fa fa-twitter"></i> Twitter
+                    </h5>
+                              <h4 class="card-caption">
+                      <a href="#">"Vivamus odio ante, feugiat eget nisi sit amet, dignissim velit. Sus pendisse ultricies varius."</a>
+                    </h4>
+                              <div class="ftr">
+                                  <div class="author">
+                                      <a href="#"> <img src="./image/50.png.jpg" alt="" class="avatar img-raised"> <span>Debbon Amet</span> </a>
+                                  </div>
+                                  <div class="stats"> <i class="fa fa-heart"></i> 365 &nbsp; <i class="fa fa-share-alt"></i> 120 </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-4">
+                      <div class="card">
+                          <div class="table">
+                              <h6 class="category text-danger">
+                      <i class="fa fa-globe "></i> World
+                    </h6>
+                              <h4 class="card-caption">
+                      <a href="#">Vivamus odio ante, feugiat eget nisi sit amet, dignissim velit.</a>
+                    </h4>
+                              <div class="ftr">
+                                  <div class="author">
+                                      <a href="#"> <img src="./image/86.jpg" alt="" class="avatar img-raised"> <span>Patrick Wood</span>
+                                          <div class="ripple-cont">
+                                              <div class="ripple ripple-on ripple-out" style="left: 574px; top: 364px; background-color: rgb(60, 72, 88); transform: scale(11.875);"></div>
+                                          </div>
+                                      </a>
+                                  </div>
+                                  <div class="stats"> <i class="fa fa-heart"></i> 342 &nbsp; <i class="fa fa-comment"></i> 45 </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="card card-blog">
+                          <div class="card-image">
+                              <a href="#"> <img class="img" src="./image/Picture1.jpg"> </a>
+                              <div class="ripple-cont"></div>
+                          </div>
+                          <div class="table">
+                              <h6 class="category text-success"><i class="fa fa-university"></i> Law</h6>
+                              <h4 class="card-caption">
+                          <a href="#">Vivamus odio ante, feugiat eget nisi sit amet, dignissim velit</a>
+                  </h4>
+                              <p class="card-description"> Lorem ipsum dolor sit amet, consectetur adipis cingelit. Etiam lacinia elit et placerat finibus.</p>
+                              <div class="ftr">
+                                  <div class="author">
+                                      <a href="#"> <img src="./image/50.png.jpg" alt="..." class="avatar img-raised"> <span>Mary Dunst</span> </a>
+                                  </div>
+                                  <div class="stats"> <i class="fa fa-clock-o"></i> 10 min </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-4">
+                      <div class="card card-blog">
+                          <div class="card-image">
+                              <a href="#"> <img class="img" src="./image/aus.jpg"> </a>
+                              <div class="ripple-cont"></div>
+                          </div>
+                          <div class="table">
+                              <h6 class="category text-warning">
+                      <i class="fa fa-soundcloud"></i> Music
+                    </h6>
+                              <h4 class="card-caption">
+                              <a href="#">Vivamus odio ante, feugiat eget nisi sit amet, dignissim velit</a>
+                  </h4>
+                              <div class="ftr">
+                                  <div class="author">
+                                      <a href="#"> <img src="./image/50.png.jpg" alt="..." class="avatar img-raised"> <span>Debbon Amet</span> </a>
+                                  </div>
+                                  <div class="stats"> <i class="fa fa-clock-o"></i> 15 min </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="card">
+                          <div class="table table-danger">
+                              <h5 class="category-social">
+                      <i class="fa fa-newspaper-o"></i> News
+                    </h5>
+                              <h4 class="card-caption">
+                      <a href="#">"Consectetur odio feugiat"</a>
+                    </h4>
+                              <p class="card-description"> Lorem ipsum dolor sit amet, consectetur adipis cingelit. Etiam lacinia elit et placerat finibus.</p>
+                              <div class="ftr text-center"> <a href="#" class="btn btn-white btn-round">Read More</a> </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
           </div>
-          <div class="about">
-            <h3>About Me</h3>I'm a web designer for Fiserv, specializing in web design, graphic design, and UX. Experienced with the Adobe Creative Suite, responsive design, social media management, and prototyping.
-          </div>
-          <div class="contact">
-            <h3>Contact Me</h3>
-            <div class="call"><a href="tel:123-456-7890"><i class="fas fa-phone"></i><span>123-456-7890</span></a></div>
-            <div class="address"><a href="https://goo.gl/maps/fiTBGT6Vnhy"><i class="fas fa-map-marker"></i><span>Provo, Utah</span></a>
-            </div>
-            <div class="email"><a href="mailto:astronaomical@gmail.com"><i class="fas fa-envelope"></i><span>astronaomical</span></a></div>
-            <div class="website"><a href="http://astronaomical.com/" target="_blank"> <i class="fas fa-home"></i><span>astronaomical.com</span></a></div>
-          </div>
-          <div class="follow">
-            <h3>Follow Me</h3>
-            <div class="box">
-              <a href="https://www.facebook.com/astronaomical/" target="_blank"><i class="fab fa-facebook"></i></a>
-              <a href="https://www.instagram.com/astronaomical/" target="_blank"><i class="fab fa-instagram "></i></a>
-              <a href="https://www.pinterest.com/astronaomical/" target="_blank"><i class="fab fa-pinterest"></i></a>
-              <a href="https://www.linkedin.com/in/naomi-weatherford-758385112/" target="_blank"><i class="fab fa-linkedin"></i></a>
-              <a href="https://codepen.io/astronaomical/" target="_blank"><i class="fab fa-codepen"></i></a>
-              <a href="https://www.behance.net/astronaomical" target="_blank"><i class="fab fa-behance"></i></a>
-            </div>
-          </div>
-        </div>
-        <div class="func">
-          <div class="work">
-            <h3><i class="fa fa-briefcase"></i>Experience</h3>
-            <ul>
-              <li><span>Technical Consultant -<br>Web Design</span><small>Fiserv</small><small>Apr 2018 - Now</small></li>
-              <li><span>Web Designer</span><small>Lynden</small><small>Jan 2018 - Apr 2018</small></li>
-              <li><span>Intern - Web Design</span><small>Lynden</small><small>Aug 2017 - Dec 2017</small></li>
-            </ul>
-          </div>
-          <div class="edu">
-            <h3><i class="fa fa-graduation-cap"></i>Education</h3>
-            <ul>
-              <li><span>Bachelor of Science<br>Web Design and Development</span><small>BYU-Idaho</small><small>Jan. 2016 - Apr. 2018</small></li>
-              <li><span>Computer Science</span><small>Edmonds Community College</small><small>Sept. 2014 - Dec. 2015</small></li>
-              <li><span>High School</span><small>Henry M. Jackson High School</small><small>Jan. 2013 - Jun. 2015</small></li>
-            </ul>
-          </div>
-          <div class="skills-prog">
-            <h3><i class="fas fa-code"></i>Programming Skills</h3>
-            <ul>
-              <li data-percent="95"><span>HTML5</span>
-                <div class="skills-bar">
-                  <div class="bar"></div>
-                </div>
-              </li>
-              <li data-percent="90"><span>CSS3 & SCSS</span>
-                <div class="skills-bar">
-                  <div class="bar"></div>
-                </div>
-              </li>
-              <li data-percent="60"><span>JavaScript</span>
-                <div class="skills-bar">
-                  <div class="bar"></div>
-                </div>
-              </li>
-              <li data-percent="50"><span>jQuery</span>
-                <div class="skills-bar">
-                  <div class="bar"></div>
-                </div>
-              </li>
-              <li data-percent="40"><span>JSON</span>
-                <div class="skills-bar">
-                  <div class="bar"></div>
-                </div>
-              </li>
-              <li data-percent="55"><span>PHP</span>
-                <div class="skills-bar">
-                  <div class="bar"></div>
-                </div>
-              </li>
-              <li data-percent="40"><span>MySQL</span>
-                <div class="skills-bar">
-                  <div class="bar"></div>
-                </div>
-              </li>
-            </ul>
-          </div>
-          <div class="skills-soft">
-            <h3><i class="fas fa-bezier-curve"></i>Software Skills</h3>
-            <ul>
-              <li data-percent="90">
-                <svg viewbox="0 0 100 100">
-                  <circle cx="50" cy="50" r="45"></circle>
-                  <circle class="cbar" cx="50" cy="50" r="45"></circle>
-                </svg><span>Illustrator</span><small></small>
-              </li>
-              <li data-percent="75">
-                <svg viewbox="0 0 100 100">
-                  <circle cx="50" cy="50" r="45"></circle>
-                  <circle class="cbar" cx="50" cy="50" r="45"></circle>
-                </svg><span>Photoshop</span><small></small>
-              </li>
-              <li data-percent="85">
-                <svg viewbox="0 0 100 100">
-                  <circle cx="50" cy="50" r="45"></circle>
-                  <circle class="cbar" cx="50" cy="50" r="45"></circle>
-                </svg><span>InDesign</span><small></small>
-              </li>
-              <li data-percent="65">
-                <svg viewbox="0 0 100 100">
-                  <circle cx="50" cy="50" r="45"></circle>
-                  <circle class="cbar" cx="50" cy="50" r="45"></circle>
-                </svg><span>Dreamweaver</span><small></small>
-              </li>
-            </ul>
-          </div>
-          <div class="interests">
-            <h3><i class="fas fa-star"></i>Interests</h3>
-            <div class="interests-items">
-              <div class="art"><i class="fas fa-palette"></i><span>Art</span></div>
-              <div class="art"><i class="fas fa-book"></i><span>Books</span></div>
-              <div class="movies"><i class="fas fa-film"></i><span>Movies</span></div>
-              <div class="music"><i class="fas fa-headphones"></i><span>Music</span></div>
-              <div class="games"><i class="fas fa-gamepad"></i><span>Games</span></div>
-            </div>
-          </div>
-        </div>
       </div>
-      <script>
-        (function() {
-  (".skills-prog li")
-    .find(".skills-bar")
-    .each(function(i) {
-      (this)
-        .find(".bar")
-        .delay(i * 150)
-        .animate(
+      <!-- PLAIN CARDS -->
+      <h3>Plain Cards</h3>
+      <div class="cards-2 section-gray">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-4">
+                      <div class="card card-blog">
+                          <div class="card-image">
+                              <a href="#"> <img class="img img-raised" src="./image/aus.jpg"> </a>
+                              <div class="ripple-cont"></div>
+                          </div>
+                          <div class="table">
+                              <h6 class="category text-info">Pharetra</h6>
+                              <h4 class="card-caption">
+                  <a href="#">Quisque id elit maximus, pretium diam at mollis elit</a>
+                </h4>
+                              <p class="card-description"> Lorem ipsum dolor sit amet, consectetur adipis cingelit. Etiam lacinia elit et placerat finibus. Praesent justo metus, pharetra vel nibh sit amet, tincidunt posuere nulla. </p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-4">
+                      <div class="card card-blog">
+                          <div class="card-image">
+                              <a href="#"> <img class="img img-raised" src="./image/50.png.jpg"> </a>
+                          </div>
+                          <div class="table">
+                              <h6 class="category text-danger">Lacinia</h6>
+                              <h4 class="card-caption">
+                  <a href="#">Quisque id elit maximus, pretium diam at mollis elit</a>
+                </h4>
+                              <p class="card-description"> Lorem ipsum dolor sit amet, consectetur adipis cingelit. Etiam lacinia elit et placerat finibus. Praesent justo metus, pharetra vel nibh sit amet, tincidunt posuere nulla. </p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-4">
+                      <div class="card card-blog">
+                          <div class="card-image">
+                              <a href="#"> <img class="img img-raised" src="./image/respon.png"> </a>
+                          </div>
+                          <div class="table">
+                              <h6 class="category text-success">Consectetur</h6>
+                              <h4 class="card-caption">
+                  <a href="#">Quisque id elit maximus, pretium diam at mollis elit</a>
+                </h4>
+                              <p class="card-description"> Lorem ipsum dolor sit amet, consectetur adipis cingelit. Etiam lacinia elit et placerat finibus. Praesent justo metus, pharetra vel nibh sit amet, tincidunt posuere nulla. </p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!-- BACKGROUND CARDS -->
+      <h3>Background Cards</h3>
+      <div class="cards-3 section-gray">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-6">
+                      <div class="card card-background" style="background-image: url('http://adamthemes.com/demo/code/cards/images/blog07.jpeg')">
+                          <div class="table">
+                              <h6 class="category text-info">Category</h6>
+                              <a href="#">
+                                  <h3 class="card-caption">Vivamus odio ante, feugiat eget nisisit</h3> </a>
+                              <p class="card-description"> Lorem ipsum dolor sit amet, consectetur adipis cingelit. Etiam lacinia elit et placerat finibus. Praesent justo metus, pharetra vel nibh sit amet, tincidunt posuere nulla. Vivamus odio antement, feugiat eget, scelerisque dignissim velit antement.</p>
+                              <a href="#" class="btn btn-white btn-simple"> <i class="fa fa-align-left"></i> Read Article </a>
+                              <a href="#pablo" class="btn btn-warning btn-round"> <i class="fa fa-cogs"></i> Our Project
+                                  <div class="ripple-container"></div>
+                              </a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-6">
+                      <div class="card card-background" style="background-image: url('http://adamthemes.com/demo/code/cards/images/blog07.jpeg')">
+                          <div class="table">
+                              <h6 class="category text-info">Category</h6>
+                              <h3 class="card-caption">Quisque id elit maximus, pretium mollis elit</h3>
+                              <p class="card-description"> Lorem ipsum dolor sit amet, consectetur adipis cingelit. Etiam lacinia elit et placerat finibus. Praesent justo metus, pharetra vel nibh sit amet, tincidunt posuere nulla. Vivamus odio antement, feugiat eget amet, scelerisque velit antement.</p>
+                              <a href="#" class="btn btn-danger btn-round"> <i class="fa fa-align-left"></i> Read Article </a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!-- PROFILE CARDS 1 -->
+      <h3>Profile Cards</h3>
+      <div class="cards-5 section-gray">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-4">
+                      <div class="card card-profile">
+                          <div class="card-avatar">
+                              <a href="#"> <img class="img" src="./image/86.jpg"> </a>
+                          </div>
+                          <div class="table">
+                              <h4 class="card-caption">Patrick Wood</h4>
+                              <h6 class="category text-muted">CEO / Co-Founder</h6>
+                              <p class="card-description"> Don't be scared of the truth because we need to restart the human foundation in truth And I love you like Kanye loves Kanye I love Rick Owens’ bed design but the back is... </p>
+                              <div class="ftr"> <a href="#" class="btn btn-just-icon btn-pinterest btn-round"><i class="fa fa-pinterest"></i>
+                                  </a> <a href="#" class="btn btn-just-icon btn-twitter btn-round"><i class="fa fa-twitter"></i></a> <a href="#" class="btn btn-just-icon btn-dribbble btn-round"><i class="fa fa-dribbble"></i></a> </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-4">
+                      <div class="card card-profile">
+                          <div class="card-avatar">
+                              <a href="#"> <img class="img" src="./image/50.png.jpg"> </a>
+                          </div>
+                          <div class="table">
+                              <h4 class="card-caption">Debbon Amet</h4>
+                              <h6 class="category text-muted">Front End Developer</h6>
+                              <p class="card-description"> Don't be scared of the truth because we need to restart the human foundation in truth And I love you like Kanye loves Kanye I love Rick Owens’ bed design but the back is... </p>
+                              <div class="ftr"> <a href="#" class="btn btn-just-icon btn-dribbble btn-round"><i class="fa fa-dribbble"></i></a> <a href="#" class="btn btn-just-icon btn-twitter btn-round"><i class="fa fa-twitter"></i></a> </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-4">
+                      <div class="card card-profile">
+                          <div class="card-avatar">
+                              <a href="#"> <img class="img" src="./image/30.PNG"> </a>
+                          </div>
+                          <div class="table">
+                              <h4 class="card-caption">Mary Dunst</h4>
+                              <h6 class="category text-muted">Web Designer</h6>
+                              <p class="card-description"> Don't be scared of the truth because we need to restart the human foundation in truth And I love you like Kanye loves Kanye I love Rick Owens’ bed design but the back is... </p>
+                              <div class="ftr"> <a href="#" class="btn btn-just-icon btn-dribbble btn-round"><i class="fa fa-dribbble"></i></a> <a href="#" class="btn btn-just-icon btn-twitter btn-round"><i class="fa fa-twitter"></i></a> <a href="#" class="btn btn-just-icon btn-pinterest btn-round"><i class="fa fa-pinterest"></i></a> </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!-- PROFILE CARDS 2 -->
+      <h3>Profile Cards</h3>
+      <div class="cards-6 section-gray">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-4">
+                      <div class="card card-profile">
+                          <div class="card-image">
+                              <a href="#"> <img class="img" src="./image/aus.jpg">
+                                  <div class="card-caption"> John Smith </div>
+                              </a>
+                          </div>
+                          <div class="table">
+                              <h6 class="category text-danger">CEO / Co-Founder</h6>
+                              <p class="card-description"> Don't be scared of the truth because we need to restart the human foundation in truth And I love you like Kanye loves Kanye I love Rick Owens’ bed design but the back is... </p>
+                              <div class="ftr"> <a href="#" class="btn btn-just-icon btn-simple btn-twitter"><i class="fa fa-twitter"></i></a> <a href="#" class="btn btn-just-icon btn-simple btn-dribbble"><i class="fa fa-dribbble"></i></a> <a href="#" class="btn btn-just-icon btn-simple btn-instagram"><i class="fa fa-instagram"></i></a> </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-4">
+                      <div class="card card-profile">
+                          <div class="card-image">
+                              <a href="#"> <img class="img" src="./image/50.png.jpg">
+                                  <div class="card-caption"> Clementine Thson </div>
+                              </a>
+                          </div>
+                          <div class="table">
+                              <h6 class="category text-success">Graphic Designer</h6>
+                              <p class="card-description"> Don't be scared of the truth because we need to restart the human foundation in truth And I love you like Kanye loves Kanye I love Rick Owens’ bed design but the back is... </p>
+                              <div class="ftr"> <a href="#" class="btn btn-just-icon btn-simple btn-twitter"><i class="fa fa-twitter"></i></a> <a href="#" class="btn btn-just-icon btn-simple btn-dribbble"><i class="fa fa-dribbble"></i></a> <a href="#" class="btn btn-just-icon btn-simple btn-instagram"><i class="fa fa-instagram"></i></a> </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-4">
+                      <div class="card card-profile">
+                          <div class="card-image">
+                              <a href="#"> <img class="img" src="./image/30.PNG">
+                                  <div class="card-caption"> Elanor Aline</div>
+                              </a>
+                          </div>
+                          <div class="table">
+                              <h6 class="category text-info">Front End Developer</h6>
+                              <p class="card-description"> Don't be scared of the truth because we need to restart the human foundation in truth And I love you like Kanye loves Kanye I love Rick Owens’ bed design but the back is... </p>
+                              <div class="ftr"> <a href="#" class="btn btn-just-icon btn-simple btn-twitter"><i class="fa fa-twitter"></i></a> <a href="#" class="btn btn-just-icon btn-simple btn-dribbble"><i class="fa fa-dribbble"></i></a> <a href="#" class="btn btn-just-icon btn-simple btn-instagram"><i class="fa fa-instagram"></i></a> </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!-- PROFILE CARDS 3 -->
+      <h3>Profile Cards</h3>
+      <div class="cards-7 section-gray">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-4">
+                      <div class="card card-profile">
+                          <div class="card-image">
+                              <a href="#"> <img class="img" src="./image/50.png.jpg"> </a>
+                          </div>
+                          <div class="table">
+                              <h4 class="card-caption">John Smith</h4>
+                              <h6 class="category text-gray">CEO / Co-Founder</h6>
+                              <div class="ftr"> <a href="#" class="btn btn-just-icon btn-twitter btn-round"><i class="fa fa-twitter"></i></a> <a href="#" class="btn btn-just-icon btn-facebook btn-round"><i class="fa fa-facebook-square"></i></a> <a href="#" class="btn btn-just-icon btn-google btn-round"><i class="fa fa-google"></i></a> </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-4">
+                      <div class="card card-profile">
+                          <div class="card-image">
+                              <a href="#"> <img class="img" src="./image/aus.jpg"> </a>
+                          </div>
+                          <div class="table">
+                              <h4 class="card-caption">Clementine Thson</h4>
+                              <h6 class="category text-gray">Graphic Designer</h6>
+                              <div class="ftr"> <a href="#" class="btn btn-just-icon btn-twitter btn-round"><i class="fa fa-twitter"></i></a> <a href="#" class="btn btn-just-icon btn-facebook btn-round"><i class="fa fa-facebook-square"></i></a> <a href="#" class="btn btn-just-icon btn-google btn-round"><i class="fa fa-pinterest"></i></a> </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-4">
+                      <div class="card card-profile">
+                          <div class="card-image">
+                              <a href="#"> <img class="img" src="./image/h.jpg"> </a>
+                          </div>
+                          <div class="table">
+                              <h4 class="card-caption">Elanor Aline</h4>
+                              <h6 class="category text-gray">Front End Developer</h6>
+                              <div class="ftr"> <a href="#" class="btn btn-just-icon btn-twitter btn-round"><i class="fa fa-twitter"></i></a> <a href="#" class="btn btn-just-icon btn-facebook btn-round"><i class="fa fa-facebook-square"></i></a> <a href="#" class="btn btn-just-icon btn-google btn-round"><i class="fa fa-google"></i></a> </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!-- PRODUCT CARDS -->
+      <h3>Product Cards</h3>
+      <div class="cards-8 section-gray">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-3">
+                      <div class="card card-product">
+                          <div class="card-image">
+                              <a href="#"> <img class="img" src="./image/h.jpg"> </a>
+                          </div>
+                          <div class="table">
+                              <h6 class="category text-rose">Clothing</h6>
+                              <h4 class="card-caption">
+                <a href="#">Home</a>
+              </h4>
+                              <div class="card-description"> Lorem ipsum dolor sit amet, consectetur adipis cingelit. Etiam lacinia elit... </div>
+                              <div class="ftr">
+                                  <div class="price">
+                                      <h4>$1,230</h4> </div>
+                                  <div class="stats">
+                                      <button type="button" rel="tooltip" title="" class="btn btn-just-icon btn-simple btn-warning" data-original-title="Saved to Wishlist"> <i class="fa fa-shopping-cart"></i> </button>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-3">
+                      <div class="card card-product">
+                          <div class="card-image">
+                              <a href="#"> <img class="img" src="./image/50.png.jpg"> </a>
+                              <div class="ripple-cont"></div>
+                          </div>
+                          <div class="table">
+                              <h6 class="category text-muted">Clothing</h6>
+                              <h4 class="card-caption">
+                <a href="#">Dipa oli</a>
+              </h4>
+                              <div class="card-description"> Lorem ipsum dolor sit amet, consectetur adipis cingelit. Etiam lacinia elit... </div>
+                              <div class="ftr">
+                                  <div class="price">
+                                      <h4>$990</h4> </div>
+                                  <div class="stats">
+                                      <button type="button" rel="tooltip" title="" class="btn btn-just-icon btn-simple btn-default" data-original-title="Save to Wishlist"> <i class="fa fa-shopping-cart"></i>
+                                          <div class="ripple-cont"></div>
+                                      </button>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-3">
+                      <div class="card card-product">
+                          <div class="card-image">
+                              <a href="#"> <img class="img" src="./image/aus.jpg"> </a>
+                          </div>
+                          <div class="table">
+                              <h6 class="category text-muted">Clothing</h6>
+                              <h4 class="card-caption">
+                <a href="#">japan</a>
+              </h4>
+                              <div class="card-description"> Lorem ipsum dolor sit amet, consectetur adipis cingelit. Etiam lacinia elit... </div>
+                              <div class="ftr">
+                                  <div class="price">
+                                      <h4>$1,100</h4> </div>
+                                  <div class="stats">
+                                      <button type="button" rel="tooltip" title="" class="btn btn-just-icon btn-simple btn-warning" data-original-title="Saved to Wishlist"> <i class="fa fa-shopping-cart"></i> </button>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-3">
+                      <div class="card card-product">
+                          <div class="card-image">
+                              <a href="#"> <img class="img" src="./image/respon.png"> </a>
+                          </div>
+                          <div class="table">
+                              <h6 class="category text-rose">Clothing</h6>
+                              <h4 class="card-caption">
+                <a href="#">Computer</a>
+              </h4>
+                              <div class="card-description"> Lorem ipsum dolor sit amet, consectetur adipis cingelit. Etiam lacinia elit... </div>
+                              <div class="ftr">
+                                  <div class="price">
+                                      <h4>$1,200</h4> </div>
+                                  <div class="stats">
+                                      <button type="button" rel="tooltip" title="" class="btn btn-just-icon btn-simple btn-default" data-original-title="Save to Wishlist"> <i class="fa fa-shopping-cart"></i> </button>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!-- TESTIMONIAL CARDS -->
+      <h3>Testimonial Cards</h3>
+      <div class="cards-4 section-gray">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-4">
+                      <div class="card card-testimonial">
+                          <div class="icon"> <i class="fa fa-quote-right"></i> </div>
+                          <div class="table">
+                              <h5 class="card-description">
+              "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit. Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit!"
+            </h5> </div>
+                          <div class="ftr">
+                              <h4 class="card-caption">Debbon Amet</h4>
+                              <h6 class="category">@debbonamet</h6>
+                              <div class="card-avatar">
+                                  <a href="#"> <img class="img" src="./image/aus.jpg"> </a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-4">
+                      <div class="card card-testimonial">
+                          <div class="icon"> <i class="fa fa-quote-right"></i> </div>
+                          <div class="table">
+                              <h5 class="card-description">
+              "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit. Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit!"
+            </h5> </div>
+                          <div class="ftr">
+                              <h4 class="card-caption">Mary Dunst</h4>
+                              <h6 class="category">@marydunst</h6>
+                              <div class="card-avatar">
+                                  <a href="#"> <img class="img" src="./image/50.png.jpg"> </a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-4">
+                      <div class="card card-testimonial">
+                          <div class="icon"> <i class="fa fa-quote-right"></i> </div>
+                          <div class="table">
+                              <h5 class="card-description">
+              "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit. Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit!"
+            </h5> </div>
+                          <div class="ftr">
+                              <h4 class="card-caption">Patrick Wood</h4>
+                              <h6 class="category">@patrickwood</h6>
+                              <div class="card-avatar">
+                                  <a href="#"> <img class="img" src="./image/tu pic.jpg"> </a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </article>
+
+
+
+
+
+</footer> 
+<footer class="ft">
+<div class="cointainer">
+    <div class="rows">
+        <div class="footer-col">
+            <h3>Contact Details</h3>
+            <ul>
+                <li><i class="fa-sharp fa-solid fa-house-chimney"></i>Delta Software</li>
+                <li><i class="fa-solid fa-location-dot"></i>Ghorahi-15 Dang</li>
+                <li><i class="fa-solid fa-mobile-screen"></i>9742253238</li>
+                <li><i class="fa-solid fa-phone-volume"></i>082-563545</li>
+                <li><i class="fa-solid fa-envelope"></i><a href="mailto:">dinistinaoli@gmail.com</a></li>
+
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h3>Our Facilities</h3>
+            <ul>
+                <li><i class="fa-solid fa-angles-right"></i>Java Development</li>
+                <li><i class="fa-solid fa-angles-right"></i>Python Development</li>
+                <li><i class="fa-solid fa-angles-right"></i>Netcentric Development</li>
+                <li><i class="fa-solid fa-angles-right"></i>Laravel Development</li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h3>Follow Us On</h3>
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""> <i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+        <div class="footer-col">
+            <h3>Our Gallery</h3>
+            <img src="./image/86.jpg" alt="">
+        </div>
+    </div>
+</div>
+<div class="lower-footer">
+    <h3>@Copy2080 Design By Dipa Oli<i class="fa-solid fa-heart"></i>All right reserved</h3>
+</div>
+</footer>
+<script>
+(function() {
+    $(".skills-prog li")
+      .find(".skills-bar")
+      .each(function(i) {
+        (this)
+          .find(".bar")
+          .delay(i * 150)
+          .animate(
+            {
+              width:
+                (this)
+                  .parents()
+                  .attr("data-percent") + "%"
+            },
+            1000,
+            "linear",
+            function() {
+              return $(this).css({
+                "transition-duration": ".5s"
+              });
+            }
+          );
+      });
+  
+    (".skills-soft li")
+      .find("svg")
+      .each(function(i) {
+        var c, cbar, circle, percent, r;
+        circle = (this).children(".cbar");
+        r = circle.attr("r");
+        c = Math.PI * (r * 2);
+        percent = (this)
+          .parent()
+          .data("percent");
+        cbar = (100 - percent) / 100 * c;
+        circle.css({
+          "stroke-dashoffset": c,
+          "stroke-dasharray": c
+        });
+        circle.delay(i * 150).animate(
           {
-            width:
-              (this)
-                .parents()
-                .attr("data-percent") + "%"
+            strokeDashoffset: cbar
           },
           1000,
           "linear",
           function() {
-            return (this).css({
-              "transition-duration": ".5s"
+            return circle.css({
+              "transition-duration": ".3s"
             });
           }
         );
-    });
-
-  (".skills-soft li")
-    .find("svg")
-    .each(function(i) {
-      var c, cbar, circle, percent, r;
-      circle = (this).children(".cbar");
-      r = circle.attr("r");
-      c = Math.PI * (r * 2);
-      percent = (this)
-        .parent()
-        .data("percent");
-      cbar = (100 - percent) / 100 * c;
-      circle.css({
-        "stroke-dashoffset": c,
-        "stroke-dasharray": c
-      });
-      circle.delay(i * 150).animate(
-        {
-          strokeDashoffset: cbar
-        },
-        1000,
-        "linear",
-        function() {
-          return circle.css({
-            "transition-duration": ".3s"
-          });
-        }
-      );
-      (this)
-        .siblings("small")
-        .prop("Counter", 0)
-        .delay(i * 150)
-        .animate(
-          {
-            Counter: percent
-          },
-          {
-            duration: 1000,
-            step: function(now) {
-              return (this).text(Math.ceil(now) + "%");
+        $(this)
+          .siblings("small")
+          .prop("Counter", 0)
+          .delay(i * 150)
+          .animate(
+            {
+              Counter: percent
+            },
+            {
+              duration: 1000,
+              step: function(now) {
+                return $(this).text(Math.ceil(now) + "%");
+              }
             }
-          }
-        );
-    });
-}.call(this));
-      </script>
+          );
+      });
+  }.call(this));
+</script>
+  
+       
 </body>
 </html>
